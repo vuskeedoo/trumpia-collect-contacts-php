@@ -78,7 +78,7 @@
 			curl_close($this->curl_handle);  
 
 			$result = array($this->response_status, $this->response_body);
-
+			
 			return $result;
 		}
 
